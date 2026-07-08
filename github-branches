@@ -1,0 +1,13 @@
+$ git branch -a -vv
+* bug-fix-revert                b328728 [origin/bug-fix-revert] Revert "Fix typo: Addtional -> Additional"
+  bug-fix-typo                  0a3e3c7 [origin/bug-fix-typo] Fix typo: Addtional -> Additional
+  main                          0a3e3c7 [origin/main] Fix typo: Addtional -> Additional
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert b328728 Revert "Fix typo: Addtional -> Additional"
+  remotes/origin/bug-fix-typo   0a3e3c7 Fix typo: Addtional -> Additional
+  remotes/origin/main           0a3e3c7 Fix typo: Addtional -> Additional
+
+$ gh api repos/dhruvs8167/mcino-Introduction-to-Git-and-GitHub/branches --jq ".[] | {name: .name, protected: .protected}"
+{"name":"bug-fix-revert","protected":false}
+{"name":"bug-fix-typo","protected":false}
+{"name":"main","protected":false}

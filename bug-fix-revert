@@ -1,0 +1,15 @@
+$ curl -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/dhruvs8167/mcino-Introduction-to-Git-and-GitHub/pulls/1
+
+{
+  "id": 4012936582,
+  "number": 1,
+  "state": "open",
+  "title": "Revert typo fix",
+  "html_url": "https://github.com/dhruvs8167/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "head_repo_full_name": "dhruvs8167/mcino-Introduction-to-Git-and-GitHub",
+  "head_ref": "bug-fix-revert",
+  "base_repo_full_name": "dhruvs8167/mcino-Introduction-to-Git-and-GitHub",
+  "base_ref": "main",
+  "user_login": "dhruvs8167",
+  "mergeable_state": "clean"
+}
